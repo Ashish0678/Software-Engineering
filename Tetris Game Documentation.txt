@@ -1,0 +1,61 @@
+Tetris Game Documentation
+Table of Contents
+Introduction
+Installation and Setup
+Gameplay
+Controls
+Features
+Technical Details
+Credits
+Future Improvements
+Conclusion
+1. Introduction
+Welcome to the Tetris Game Documentation! This document provides an overview of our Tetris game developed by Ashish Kumar and Harsh Patel. Tetris is a classic puzzle game where players arrange falling blocks to create horizontal lines, which then disappear to score points. This documentation outlines how to install and play the game, explains its features, and includes technical details about the code.
+
+2. Installation and Setup
+To play the Tetris game, follow these steps:
+
+Install Python: Make sure you have Python installed on your system. You can download it from the official website: Python Downloads.
+
+Install Pygame: Tetris is built using the Pygame library. You can install it using the following command:
+
+Copy code
+pip install pygame
+Download the Game: Download the Tetris game code from our GitHub repository: Tetris GitHub Repository.
+
+Run the Game: Open the terminal or command prompt, navigate to the directory where the game code is located, and run the following command:
+
+Copy code
+python tetris_game.py
+3. Gameplay
+Tetris is a tile-matching puzzle game. Blocks, known as tetrominoes, fall from the top of the screen. Players can move and rotate these blocks to fit them into the existing blocks at the bottom. When a horizontal line is filled with blocks, it disappears, and players earn points. The game ends if the blocks reach the top of the screen.
+
+4. Controls
+Arrow Keys: Move the falling block left, right, or down.
+Up Arrow Key: Rotate the falling block.
+Space Bar: Instantly drop the falling block to the bottom.
+Escape Key: Pause the game and display a quit dialog.
+5. Features
+Start Page: The game begins with a start page displaying game information and options.
+Gameplay: Engage in classic Tetris gameplay with falling blocks and clearing lines.
+Score System: Earn points by clearing lines. The more lines you clear simultaneously, the higher your score.
+Next Block Preview: See the upcoming block to strategize your moves.
+Pause and Quit: Pause the game and decide whether to quit or continue.
+Top Scores: View the top scores achieved in the game.
+6. Technical Details
+Language: Python
+Library: Pygame
+Design Pattern: Object-Oriented Programming (OOP)
+Code Structure: Divided into logical sections for better understanding.
+Classes: Block for managing individual blocks, and Tetris for the main game logic.
+7. Credits
+Developers: Ashish Kumar, Harsh Patel
+Graphics: Pygame library (shapes and colors)
+Inspiration: Classic Tetris game
+8. Future Improvements
+While the current version of the Tetris game is functional, we have plans for future improvements, including:
+
+Enhanced graphics and animations
+Different game modes and difficulty levels
+High-score leaderboard
+Sound effects and music
